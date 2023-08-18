@@ -11,3 +11,6 @@ Full Java/SpringBoot project for management of a Cars Dealer based in Kindson of
 | spring-boot-starter-thymeleaf  | Template engine for rendering html pages  |
 |spring-boot-starter-security  | Handles security, for instance user login, authentication and authorization (defer this till 10)  |
 | thymeleaf-extras-springsecurity5 | from org.thymeleaf.extras. Helps you add logged-in username to the html page  |
+
+## Details
+Details of the app.
