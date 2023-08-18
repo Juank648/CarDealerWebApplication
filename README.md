@@ -1,7 +1,7 @@
 # CarDealerWebApplication
 Full Java/SpringBoot project for management of a Cars Dealer based in Kindson of TechPro course4
 
-# Dependencies
+## Dependencies
 | Dependency  | Description  |
 |---|---|
 |lombok|  Helps to generate POJO codes |
