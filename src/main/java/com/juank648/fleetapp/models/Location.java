@@ -12,19 +12,25 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
-public class State {
+public class Location {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="id")
     private Integer id;
-    private String name;
-    private String capital;
-    private String code;
+
+    private String description;
+    private String details;
 
     @ManyToOne
     @JoinColumn(name="countryid", insertable=false, updatable=false)
     private Country country;
-
     private Integer countryid;
 
-    private String details;
+    @ManyToOne
+    @JoinColumn(name="stateid", insertable=false, updatable=false)
+    private State state;
+    private Integer stateid;
+
+    private String city;
+    private String address;
 }
