@@ -13,7 +13,7 @@ Full Java/SpringBoot project for Fleet Cars Management based in Kindson of TechP
 | thymeleaf-extras-springsecurity5 | from org.thymeleaf.extras. Helps you add logged-in username to the html page  |
 
 ## Details
-Details of the app.
+App Created for Fleet Cars Magement
 
 ## Bootstrap Template
 https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
