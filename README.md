@@ -1,5 +1,5 @@
-# CarDealerWebApplication
-Full Java/SpringBoot project for management of a Cars Dealer based in Kindson of TechPro course4
+# Fleet App Management
+Full Java/SpringBoot project for Fleet Cars Management based in Kindson of TechPro course
 
 ## Dependencies
 | Dependency  | Description  |
